@@ -1,7 +1,9 @@
-package com.example.miindicador.local
+package com.example.miindicador.repo
 
 import android.util.Log
 import androidx.lifecycle.LiveData
+import com.example.miindicador.local.IndicadoresDao
+import com.example.miindicador.local.IndicadoresEntity
 import com.example.miindicador.pojos.Indicadores
 import com.example.miindicador.retorfit.RetrofitClient
 import kotlinx.coroutines.CoroutineScope
